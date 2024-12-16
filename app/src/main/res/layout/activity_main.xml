@@ -1,0 +1,50 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULATOR MENU\n\n"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#FFEB3B"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/addb"
+        android:textSize="30dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:background="#FFEB3B"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/subb"
+        android:textSize="30dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#FFEB3B"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:id="@+id/mulb"
+        android:textSize="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#FFEB3B"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/divb"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
